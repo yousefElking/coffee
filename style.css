@@ -1,5 +1,6 @@
 body{
 	font-family: 'Playfair Display', serif;
+	height:50000px
 	
 }
 
@@ -469,3 +470,177 @@ body{
 
 
 /*end section four*/
+
+
+/*start footer*/
+
+footer{
+	margin-top:50px;
+}
+
+footer .img{
+	position:relative;
+}
+
+footer .content{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:100%;
+	color:#FFF;
+	background:rgba(0,0,0,0.8);
+	text-align:center
+}
+
+footer .content h2{
+		margin:60px 0px 45px 0;
+		font-size:60px;
+		font-weight:600;
+		color:#be9c79
+}
+
+footer .content p{
+		line-height:1.7;
+		font-size:20px;
+		color:#FFF;
+		
+}
+
+footer .content form {
+		margin:70px 0px 25px;
+}
+
+
+footer .content form span{
+		margin-bottom:25px;
+		font-size:30px;
+		color:#FFF
+}
+
+
+footer .content form p{
+		margin-bottom:20px;
+		font-size:20px;
+}
+
+footer .content form p a{
+		text-decoration:none;
+		color:#FFF
+}
+
+footer .content form p a:hover{
+		color:#be9c79
+}
+
+footer .content form label{
+		margin:80px 0px 10px ;
+		display:block;
+		font-size:35px;
+}
+
+footer .content form input[type='text']{
+	background:none;
+	border:1px solid #FFF;
+	border-radius:5px;
+	width:500px;
+	height:50px;
+	color:#FFF;
+	text-align:center
+}
+
+footer .content form input[type='text']::placeholder{
+	color:#FFF;
+	margin-left:2px
+}
+
+
+.end {
+	width:100%;
+	background:#121212;
+	color:#FFF;
+	height:90px;
+	position:relative;
+}
+
+
+.end  ul
+ {
+	 display:flex;
+}
+
+
+.end ul  li{
+	 margin:10px;
+}
+
+.end ul  li a{
+	 text-decoration:none;
+	 color:#FFF
+}
+
+.end ul  li a:hover{
+	 color:#be9c79
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .container{
+	  width:290px;
+  }
+	
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+  .container{
+	  width:451px;
+  }
+  
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .container{
+	  
+	  width:738px
+  }
+ 
+ 
+ 
+}
+
+
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .container{
+	  
+	  width:995px
+  }
+ 
+  
+}
+
+
+@media (min-width: 1281px) {
+  
+  .container{
+	  
+	  width:1251px
+  }
+ 
+  
+  
+}
+ 
+
+/*end  footer*/
